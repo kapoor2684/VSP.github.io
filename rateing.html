@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon">
+<head>
+    <title>rating</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .info {
+            border-radius: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.646);
+            color:  rgb(248, 210, 117);
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            width: 500px;
+            height: 670px;
+        }
+
+        .info input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .info input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            border: none;
+            color:  rgb(248, 210, 117);
+            border-bottom: 1px solid  rgb(248, 210, 117);
+            background: transparent;
+            outline: none;
+            height: 40px;
+            width: 400px;
+            font-size: 15px;
+        }
+
+        .info input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            border-radius: 50px;
+            background: rgba(0, 0, 0, 0.883);
+            color: rgb(248, 210, 117);
+            font-size: 20px;
+            width: 400px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0px;
+            padding: 10px 0px 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 30px;
+        }
+        .g {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            z-index: -1px;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="g">
+        <source src="full.mp4" type="video/mp4">
+    </video>
+    <div class="info">
+
+        <form>
+            <h1>For Rating</h1><br><br>
+            <p>Name</p>
+            <input type="text" name="text" required="required" placeholder="Enter your Name"></input>
+            <p>E.mail</p>
+            <input type="email" name="email" required="required" placeholder="Enter your Email"></input>
+            <p>Ph no.</p>
+            <input type="number" name="number"  required="required"placeholder="Phone no."></input><br><br><br>
+            <input type="submit" name="submit" value="Enter"></input>
+        </form><br><br>
+        <h3>Fill these details for rating our website</h3><br><br>
+        <h3>To know about us <a href="about.html">click here</a></h3>
+    </div>
+    <span><h2><a href="2nd.html">>>>>>>>Back</a></h2></span><br><br>
+</body>
+
+</html>
